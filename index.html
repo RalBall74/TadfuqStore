@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر تدفق | Tadfuq Store</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Tajawal:wght@300;500;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+    <main class="container">
+        <!-- Home Section -->
+        <section id="home" class="view fadeIn">
+            <header class="hero">
+                <h1 class="glow-text">اعمال شركة تدفق</h1>
+                <p>مجموعتنا الحصرية من التطبيقات والألعاب المصممة بإحترافية لتجربة مميزة.</p>
+            </header>
+
+            <div class="grid-container">
+                <!-- App 1 -->
+                <div class="glass-card" onclick="openDetails('qurany')">
+                    <div class="card-icon finance-gradient">
+                        <img src="https://ralball74.github.io/qurany.assem/images/icon-512x512.jpg" alt="Qurany">
+                    </div>
+                    <div class="card-content">
+                        <h3>تطبيق قرآني</h3>
+                        <p>استمع واقرأ بطمأنينة</p>
+                        <span class="category-tag">تطبيق</span>
+                    </div>
+                </div>
+
+                <!-- App 2 -->
+                <div class="glass-card" onclick="openDetails('transword')">
+                    <div class="card-icon writer-gradient">
+                        <img src="https://ralball74.github.io/transword/images/icon-512x512.png" alt="TransWord">
+                    </div>
+                    <div class="card-content">
+                        <h3>TransWord</h3>
+                        <p>مترجم ومعلم لغات</p>
+                        <span class="category-tag">تطبيق</span>
+                    </div>
+                </div>
+
+                <!-- App 3 -->
+                <div class="glass-card" onclick="openDetails('transcoin')">
+                    <div class="card-icon runner-gradient">
+                        <div class="text-logo coin-logo">TC</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>TransCoin</h3>
+                        <p>محول عملات</p>
+                        <span class="category-tag">موقع</span>
+                    </div>
+                </div>
+
+                <!-- Game 1 -->
+                <div class="glass-card" onclick="openDetails('tictactoe')">
+                    <div class="card-icon cloud-gradient">
+                        <div class="text-logo game-logo">XO</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>لعبة X-O </p>
+                        <span class="category-tag">لعبة</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Details Overlay (Hidden by default) -->
+        <div id="details-overlay" class="overlay">
+            <div class="glass-modal">
+                <button class="close-btn" onclick="closeDetails()">&times;</button>
+                <div id="modal-body">
+                    <!-- Dynamic content here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="glass-footer">
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
