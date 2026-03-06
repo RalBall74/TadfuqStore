@@ -1,6 +1,6 @@
 const appData = {
     qurany: {
-        title: "قرآني - Qurany",
+        title: "Qurany",
         desc: "تطبيق قرآني ووجهة قرآنية متميزة.🤍",
         category: "تطبيق ديني",
         iconClass: "finance-gradient",
@@ -8,7 +8,7 @@ const appData = {
         link: "https://ralball74.github.io/qurany.assem/"
     },
     transword: {
-        title: "ترانس وورد - TransWord",
+        title: "TransWord",
         desc: "أداتك المثالية للترجمة والتعامل مع اللغات المختلفة.",
         category: "مترجم",
         iconClass: "writer-gradient",
@@ -16,7 +16,7 @@ const appData = {
         link: "https://ralball74.github.io/transword/"
     },
     transcoin: {
-        title: "ترانس كوين - TransCoin",
+        title: "TransCoin",
         desc: "محول عملات سريع يدعم معظم العملات العالمية مع تحديثات يومية.",
         category: "محول عملات",
         iconClass: "runner-gradient",
@@ -24,7 +24,7 @@ const appData = {
         link: "https://ralball74.github.io/transcoin/"
     },
     tictactoe: {
-        title: "إكس أو - Tic-Tac-Toe",
+        title: "Tic-Tac-Toe",
         desc: "اللعبة الشهيرة بتصميم عصري وألوان جذابة. العب مع أصدقائك واستمتع بالتحدي.",
         category: "لعبة ذكاء",
         iconClass: "cloud-gradient",
