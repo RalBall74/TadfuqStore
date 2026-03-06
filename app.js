@@ -4,7 +4,7 @@ const appData = {
         desc: "تطبيق قرآني ووجهة قرآنية متميزة.🤍",
         category: "تطبيق ديني",
         iconClass: "finance-gradient",
-        iconImg: "https://ralball74.github.io/qurany.assem/images/icon-512x512.jpg",
+        iconImg: "qurany.jpg",
         link: "https://ralball74.github.io/qurany.assem/"
     },
     transword: {
@@ -20,7 +20,7 @@ const appData = {
         desc: "محول عملات سريع يدعم معظم العملات العالمية مع تحديثات يومية.",
         category: "محول عملات",
         iconClass: "runner-gradient",
-        textLogo: "TC",
+        iconImg: "TransCoin.jpg",
         link: "https://ralball74.github.io/transcoin/"
     },
     tictactoe: {
@@ -28,7 +28,7 @@ const appData = {
         desc: "اللعبة الشهيرة بتصميم عصري وألوان جذابة. العب مع أصدقائك واستمتع بالتحدي.",
         category: "لعبة ذكاء",
         iconClass: "cloud-gradient",
-        textLogo: "XO",
+        iconImg: "tic_tac_toe.jpg",
         link: "https://ralball74.github.io/Tic-Tac-Toe/"
     }
 };
@@ -37,14 +37,10 @@ function openDetails(id) {
     const data = appData[id];
     const modalBody = document.getElementById('modal-body');
 
-    const iconContent = data.textLogo
-        ? `<div class="text-logo">${data.textLogo}</div>`
-        : `<img src="${data.iconImg}" width="100%">`;
-
     modalBody.innerHTML = `
         <div class="modal-header">
             <div class="modal-icon ${data.iconClass}">
-                ${iconContent}
+                <img src="${data.iconImg}" width="100%">
             </div>
             <div class="modal-info">
                 <h2>${data.title}</h2>
