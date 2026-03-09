@@ -20,7 +20,7 @@ const appData = {
         desc: "أداتك المثالية للترجمة والتعامل مع اللغات المختلفة.",
         category: "مترجم",
         iconClass: "writer-gradient",
-        iconImg: "https://ralball74.github.io/transword/images/icon-512x512.png",
+        iconImg: "img/transword.jpg",
         link: "https://ralball74.github.io/transword/"
     },
     transcoin: {
