@@ -1,10 +1,18 @@
 const appData = {
+    hamsa: {
+        title: "Hamsa",
+        desc: "تطبيق محادثة ودردشة متميز.🤍",
+        category: "تطبيق محادثة",
+        iconClass: "finance-gradient",
+        iconImg: "img/Hamsa.jpg",
+        link: "https://ralball74.github.io/Hamsa-Chat/"
+    },
     qurany: {
         title: "Qurany",
         desc: "تطبيق قرآني ووجهة قرآنية متميزة.🤍",
         category: "تطبيق ديني",
         iconClass: "finance-gradient",
-        iconImg: "qurany.jpg",
+        iconImg: "img/qurany.jpg",
         link: "https://ralball74.github.io/qurany.assem/"
     },
     transword: {
@@ -20,7 +28,7 @@ const appData = {
         desc: "محول عملات سريع يدعم معظم العملات العالمية مع تحديثات يومية.",
         category: "محول عملات",
         iconClass: "runner-gradient",
-        iconImg: "TransCoin.jpg",
+        iconImg: "img/TransCoin.jpg",
         link: "https://ralball74.github.io/transcoin/"
     },
     tictactoe: {
@@ -28,7 +36,7 @@ const appData = {
         desc: "اللعبة الشهيرة بتصميم عصري وألوان جذابة. العب مع أصدقائك واستمتع بالتحدي.",
         category: "لعبة ذكاء",
         iconClass: "cloud-gradient",
-        iconImg: "tic_tac_toe.jpg",
+        iconImg: "img/tic_tac_toe.jpg",
         link: "https://ralball74.github.io/Tic-Tac-Toe/"
     }
 };
