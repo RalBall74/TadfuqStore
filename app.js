@@ -1,6 +1,6 @@
 const appData = {
     hamsa: {
-        title: "Hamsa",
+        title: "Hamster",
         desc: "تطبيق محادثة ودردشة متميز.🤍",
         category: "تطبيق محادثة",
         iconClass: "finance-gradient",
