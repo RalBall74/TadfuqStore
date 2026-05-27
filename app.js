@@ -5,7 +5,7 @@ const appData = {
         category: "تطبيق محادثة",
         iconClass: "finance-gradient",
         iconImg: "img/Hamsa.jpg",
-        link: "https://ralball74.github.io/Hamsa-Chat/"
+        link: "https://ralball74.github.io/Hamster-Chat/"
     },
     qurany: {
         title: "Qurany",
