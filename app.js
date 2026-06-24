@@ -1,11 +1,11 @@
 const appData = {
     hamsa: {
         title: "Hamster",
-        desc: "تطبيق محادثة ودردشة متميز.🤍",
+        desc: "تطبيق محادثة ودردشة يركز على الخصوصية.",
         category: "تطبيق محادثة",
         iconClass: "finance-gradient",
         iconImg: "img/Hamsa.jpg",
-        link: "https://ralball74.github.io/Hamster-Chat/"
+        link: "https://hamster-chat.vercel.app/"
     },
     qurany: {
         title: "Qurany",
