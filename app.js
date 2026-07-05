@@ -15,22 +15,6 @@ const appData = {
         iconImg: "img/qurany.jpg",
         link: "https://ralball74.github.io/qurany.assem/"
     },
-    transword: {
-        title: "TransWord",
-        desc: "أداتك المثالية للترجمة والتعامل مع اللغات المختلفة.",
-        category: "مترجم",
-        iconClass: "writer-gradient",
-        iconImg: "img/transword.jpg",
-        link: "https://ralball74.github.io/transword/"
-    },
-    transcoin: {
-        title: "TransCoin",
-        desc: "محول عملات سريع يدعم معظم العملات العالمية مع تحديثات يومية.",
-        category: "محول عملات",
-        iconClass: "runner-gradient",
-        iconImg: "img/TransCoin.jpg",
-        link: "https://ralball74.github.io/transcoin/"
-    },
     tictactoe: {
         title: "Tic-Tac-Toe",
         desc: "اللعبة الشهيرة بتصميم عصري وألوان جذابة. العب مع أصدقائك واستمتع بالتحدي.",
