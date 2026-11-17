@@ -15,6 +15,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Tajawal', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+button, a, .glass-card, .organic-btn, .close-btn, .action-btn {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select: none;
+    outline: none;
 }
 
 html,
