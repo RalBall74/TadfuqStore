@@ -7,6 +7,14 @@ const appData = {
         iconImg: "img/Hamsa.jpg",
         link: "https://hamster-chat.vercel.app/"
     },
+    labcore: {
+        title: "LabCore",
+        desc: "تطبيق متخصص في عرض نتائج وتفاصيل وأخبار الفورمولا 1 مع متابعة حية لجميع السباقات والفرق.",
+        category: "تطبيق رياضي",
+        iconClass: "finance-gradient",
+        iconImg: "img/labcore.png",
+        link: "#"
+    },
     qurany: {
         title: "Qurany",
         desc: "تطبيق قرآني ووجهة قرآنية متميزة.🤍",
